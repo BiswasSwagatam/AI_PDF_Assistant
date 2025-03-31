@@ -26,7 +26,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        `http://localhost:3000/upload?question=${encodeURIComponent(question)}`,
+        `http://https://ai-pdf-assistant.onrender.com/upload?question=${encodeURIComponent(question)}`,
         formData,
         {
           headers: {
